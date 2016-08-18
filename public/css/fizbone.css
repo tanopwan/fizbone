@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Penna;
+    src: url("fonts/penna.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "TH Sarabun New";
+	src: url(fonts/THSarabunNew.ttf) format("truetype");
+}
+
+.fizbone-page-header {
+    background-color: gray;
+}
+
+.fizbone-page-header a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    font-family: "TH Sarabun New";
+    font-size: 25px;
+}
+
+.fizbone-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.4), 0 2px 30px 0 rgba(0, 0, 0, 0.29);
+    background-image: url('/images/dog31.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fizbone-menu-title {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: "Penna";
+    font-size: 25px;
+    color: #999999;
+}
+
+.fizbone-word-content {
+    text-align: center;
+    font-family: "TH Sarabun New";
+    font-size: 25px;
+    color: #999999;
+}
+
+.fizbone-word-footer {
+    text-align: center;
+    font-family: "TH Sarabun New";
+    font-size: 20px;
+    color: #999999;
+}
+
+.fizbone-disclaimer-footer {
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.fizbone-content {
+    vertical-align: middle;
+    align-items: center;
+}
+
+.fizbone-content img {
+    max-width: 100%;
+}
+
+.fizbone-content-background {
+    background-color: #FBFBFB;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.fizbone-vertical-middle {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
