@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "express-subdomain": "^1.0.5"
   },
   "devDependencies": {
     "babel": "^6.5.2",
